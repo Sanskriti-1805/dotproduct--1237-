@@ -5,5 +5,7 @@ if len(v1) != len(v2):
     print("Error: Vectors must have the same length.")
 else:
     dot_product = sum(a * b for a, b in zip(v1, v2))
-    print("Dot product: khud nikal le",dot_product)
+    print("Dot product:", dot_product)
+    
+print("A new change by Sans")
 
